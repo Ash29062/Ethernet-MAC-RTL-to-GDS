@@ -1,0 +1,6 @@
+C:/Users/Ash29062/Documents/GitHub/Ethernet-MAC-RTL-to-GDS/macros filter=lfs diff=lfs merge=lfs -text
+C:/Users/Ash29062/Documents/GitHub/Ethernet-MAC-RTL-to-GDS/metadata filter=lfs diff=lfs merge=lfs -text
+C:/Users/Ash29062/Documents/GitHub/Ethernet-MAC-RTL-to-GDS/previous_runs filter=lfs diff=lfs merge=lfs -text
+C:/Users/Ash29062/Documents/GitHub/Ethernet-MAC-RTL-to-GDS/src filter=lfs diff=lfs merge=lfs -text
+C:/Users/Ash29062/Documents/GitHub/Ethernet-MAC-RTL-to-GDS/Doc filter=lfs diff=lfs merge=lfs -text
+C:/Users/Ash29062/Documents/GitHub/Ethernet-MAC-RTL-to-GDS/final filter=lfs diff=lfs merge=lfs -text
