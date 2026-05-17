@@ -1,0 +1,24 @@
+{
+  "DESIGN_NAME": "eth_wishbone",
+
+  "VERILOG_FILES": [
+
+  
+    "src/eth_fifo.v",
+    "src/eth_wishbone.v",
+    "src/ethmac_defines.v",
+   
+    "src/eth_spram_256x32.v"
+],
+
+
+  "CLOCK_PORT": "wb_clk_i",
+  "CLOCK_PERIOD": 10,
+
+  "PDK": "sky130A",
+
+  "SYNTH_STRATEGY": "DELAY 1",
+
+  "FP_CORE_UTIL": 45,
+  "PL_TARGET_DENSITY_PCT": 55
+}

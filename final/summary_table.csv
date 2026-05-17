@@ -1,0 +1,28 @@
+Performance,Target Clock,100.0 MHz,10.0 ns
+Performance,Est. Fmax,83.2 MHz,12.023 ns
+Performance,Setup WNS,-2.0232 ns,
+Area,Die Area,1.022 mm²,
+Area,Core Area,0.987 mm²,
+Area,Instance Area,0.987 mm²,
+Area,Utilization,75.6%,
+Area,Cells,"142,116",6.9 μm²/cell
+Power,Total Power,110375.54 μW,111788.7 μW/mm²
+Power,Internal,78814.79 μW,71%
+Power,Switching,31559.81 μW,29%
+Power,Leakage,0.94 μW,0.0%
+Routing,Nets,"55,459",
+Routing,Wirelength,1.8 mm,12.7 μm/cell
+Routing,Vias,"416,971",
+Timing,Setup WNS,-2.0232 ns,
+Timing,Setup TNS,-42.7 ns,
+Timing,Hold WNS,0.0000 ns,
+Timing,Hold TNS,0.0 ns,
+Timing,Clk Skew Setup,0.3732 ns,
+Timing,Clk Skew Hold,-0.3533 ns,
+Quality,Antenna Nets,0,
+Quality,Max Cap Violations,0,
+Quality,Max Fanout Violations,2750,
+Quality,Max Slew Violations,4783,
+Quality,LVS Errors,0,
+Quality,DRC Errors,0,
+Quality,IR Drop Worst,0.0940%,

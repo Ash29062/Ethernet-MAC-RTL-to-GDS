@@ -1,0 +1,19 @@
+{
+  "DESIGN_NAME": "eth_registers",
+
+  "VERILOG_FILES": [
+    "src/eth_register.v",
+    "src/eth_registers.v",
+    
+    "src/ethmac_defines.v",
+    
+    "src/timescale.v"
+],
+
+
+  "CLOCK_PORT": "Clk",
+  "CLOCK_PERIOD": 10,
+
+  "PDK": "sky130A"
+
+}

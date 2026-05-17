@@ -1,0 +1,23 @@
+{
+  "DESIGN_NAME": "eth_maccontrol",
+
+  "VERILOG_FILES": [
+
+  
+    "src/eth_maccontrol.v",
+    "src/eth_transmitcontrol.v",
+   
+    "src/eth_receivecontrol.v"
+],
+
+
+  "CLOCK_PORT": "wb_clk_i",
+  "CLOCK_PERIOD": 10,
+
+  "PDK": "sky130A",
+
+  "SYNTH_STRATEGY": "DELAY 1",
+
+  "FP_CORE_UTIL": 45,
+  "PL_TARGET_DENSITY_PCT": 55
+}
