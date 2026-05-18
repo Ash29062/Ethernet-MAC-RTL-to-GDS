@@ -27,11 +27,17 @@ The implementation flow in the project reports uses open-source ASIC tooling inc
 
 The working flow also makes use of **LibreLane** through `nix-shell`, which provides a convenient environment for running the design flow and notebooks on Linux systems.
 
+## Why this workflow
+
+This repository is intentionally notebook-driven because it is easier to use than a long chain of TCL scripts. Each step is laid out in order, so you can see what changes, what runs next, and where a failure happens without digging through multiple scripts.
+
+That makes the framework especially practical for quick synthesis, iterative tuning, and review by teammates or evaluators who may not want to inspect the entire TCL flow manually.
+
 ## Quick start
 
 The easiest way to run a quick synthesis is through the PyNotebook in the `final/` folder, which lays out the flow in a straightforward step-by-step format and executes the full sequence used in the project work.
 
-That notebook is the recommended entry point because it makes each stage explicit, and the project notes indicate that it captures the customized flow evolution used for PDN, CTS, and delay experiments across roughly 60 sequential steps.
+Compared with manually driving long TCL flows, this notebook-first framework is much simpler to follow because every stage is visible, ordered, and rerunnable in one place, making it easier to understand, debug, and reproduce.
 
 Typical workflow:
 
@@ -39,6 +45,7 @@ Typical workflow:
 2. Start Jupyter from inside the shell environment so all flow dependencies are available in the notebook kernel.
 3. Open the notebook in the `final/` directory, or connect to the running Jupyter server from VS Code using the server URL generated in the terminal.
 4. Execute the notebook cells in order to reproduce synthesis and downstream implementation stages described in the reports.
+
 ## Jupyter and VS Code
 
 Because the flow is set up around a Nix-shell environment, a practical way to use it is to launch Jupyter inside `nix-shell` and then attach VS Code to that notebook server using the Jupyter server URL.
@@ -52,6 +59,7 @@ The repository includes HTML exports that serve as notebook snapshots, making it
 These HTML files are useful as static records of the notebook outputs, logs, and final state from completed runs.
 
 Large final GDSII files are not uploaded to the repository because of their size, but the project flow is already set up to regenerate them without much effort from the existing notebook and configuration flow.
+
 ## Results snapshot
 
 The project reports compare a baseline control flow against custom Sky130A and Sky130B runs, with the final comparison reporting 68.82 MHz for the control run, 72.97 MHz for custom Sky130A, and 83.17 MHz for custom Sky130B.
