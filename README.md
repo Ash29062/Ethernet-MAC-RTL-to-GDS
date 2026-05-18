@@ -102,3 +102,5 @@ If this repository is reused or referenced, use wording similar to the following
 - Final GDS snapshots may be absent from the repository due to file size, but they can be regenerated from the notebook-driven flow with the provided environment and design inputs.
 - The notebook-driven flow in `final/` is the recommended path for understanding and reproducing the implementation sequence because it exposes the run stages clearly.
 - HTML notebook exports are included as convenient static views of completed runs and synthesis snapshots.
+
+Authors: Ashmit R Sambrani, Ashmita Das
