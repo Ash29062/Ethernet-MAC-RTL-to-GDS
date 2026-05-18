@@ -103,4 +103,4 @@ If this repository is reused or referenced, use wording similar to the following
 - The notebook-driven flow in `final/` is the recommended path for understanding and reproducing the implementation sequence because it exposes the run stages clearly.
 - HTML notebook exports are included as convenient static views of completed runs and synthesis snapshots.
 
-Authors: Ashmit R Sambrani, Ashmita Das
+## Authors: Ashmit R Sambrani, Ashmita Das
