@@ -115,5 +115,5 @@ If this repository is reused or referenced, use wording similar to the following
 </a>
 
 <a href="https://github.com/dustydez">
-  <img src="https://github.com/<their-github-username>.png?size=80" width="80" height="80" alt="Ashmita Das" />
+  <img src="https://github.com/dustydez.png?size=80" width="80" height="80" alt="Ashmita Das" />
 </a>
